@@ -1,5 +1,5 @@
-// import React from 'react'
 import Grid from "../Components/Grid";
+import WaveGrid from "../Components/WaveGrid";
 function Home() {
   return <>
     <div className="w-screen min-h-screen bg-lime-900 flex justify-center items-center">
@@ -9,7 +9,8 @@ function Home() {
           FOG-Assignment
         </div>
         <Grid rows={15} cols={20} />
-        <div className="text-pretty text-l text-white md:w-[400px] flex flex-row gap-3 justify-end items-center">
+        <WaveGrid />
+        <div className="text-pretty text-l text-white md:w-[400px] flex flex-row gap-3 justify-end items-center mb-5">
           <div></div>
           <a className="cursor-alias" href="https://github.com/hzratali">
             -<span className="underline ">Hazrat Ali</span> (Github)
